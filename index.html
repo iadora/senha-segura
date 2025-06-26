@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gerador de senha</title>
+    <title>Gerador de senhas</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -17,7 +17,7 @@
         </div>
         <div class="conteudo-senha">
             <label for="senha">Senha</label>
-            <input name="senha" type="text" id="campo-senha">
+            <input name="senha" type="text" id="campo-senha" readonly>
         </div>
         <div class="parametro">
             <h3 class="parametro-titulo">Personalize sua senha</h3>
@@ -33,27 +33,88 @@
                 <div class="parametro-senha">
                     <h4 class="parametro-senha__titulo">Características da senha</h4>
                    <div class="parametro-senha-checkbox">
-                    <input type="checkbox" name="maiuscula">
+                    <input type="checkbox"name="maiusculas" class="checkbox"> 
                     <label for="maiusculas">letras maiusculas</label>
                 </div>
                 <div class="parametro-senha-checkbox">
-                    <input type="checkbox" name="minuscula">
-                    <label for="minusculas">letras minusculas</label>
+                    <input type="checkbox"name="minuscula"class="checkbox"> 
+                    <label for="minusculas">letras minuscula</label>
                 </div>
                 <div class="parametro-senha-checkbox">
-                    <input type="checkbox" name="numero">
-                    <label for="numero">numeros</label>
+                    <input type="checkbox"name="numeros"class="checkbox"> 
+                    <label for="numeros">numeros</label>
                 </div>
                 <div class="parametro-senha-checkbox">
-                    <input type="checkbox" name="simbolo">
-                    <label for="simbolo">simbolos</label>
+                    <input type="checkbox"name="simbolos"class="checkbox"> 
+                    <label for="simbolos">simbolos</label>
+                </div>
                 </div>
                 <div class="parametro-senha">
                     <h4 class="parametro-senha__titulo">Força da senha</h4>
+                    <div class="barra"></div>
+                    <div class="forca fraca"></div>
+                    <div class="parametro-senha-textos">
+                        
+                        <p> fraca</p>
+                        <p> media</p>
+                        <p> forte</p>
                 </div>
+
             </div>
         </div>
     </section>
+    <script src="script.js"></script>
 </body>
 
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
