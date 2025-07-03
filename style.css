@@ -113,30 +113,25 @@ input{
     height: 20px;
     cursor: pointer;
 }
-.barra{
-    background-color: var(--fundo-senha);
-    height: 30px;
-    width: 100%;
-}
-.parametro-senha-textos{
-    display: flex;
-    justify-content: space-between;
-}
 .forca{
     height: 30px;
     position: relative;
     bottom: 30px;
 }
+.parametro-senha-textos{
+    display: flex;
+    justify-content: space-between;
+}
 .media{
-    background-color: #faf408;
-    width: 50%;
+    background-color: rgb(251, 234, 4);
+    width: 100%;
 }
 .forte{
-    background-color: aqua;
+    background-color: rgb(14, 99, 14);
     width: 100%;
 }
 .fraca{
-    background-color: #e71832;
+    background-color: darkred;
     width: 25%;
 }
 @media screen and (min-width: 768px) {
